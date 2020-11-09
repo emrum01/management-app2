@@ -140,7 +140,7 @@ export default {
         localStorage.removeItem('todos');
       }
     }
-    confirm(this.score)
+    
     this.fillData();
   },
   methods: {
