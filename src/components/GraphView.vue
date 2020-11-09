@@ -1,7 +1,5 @@
 <template>
     <MainChart class="chart"/>
-    <!-- こちらの書き方でもOK -->
-    <!-- <main-chart class="chart"/> -->
 </template>
 
 <script>
