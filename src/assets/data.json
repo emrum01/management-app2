@@ -1,0 +1,17 @@
+[
+    {
+        "category": "数学",
+        "title": "数と式1",
+        "evaluation": "得意",
+        "date": "2020/8/2",
+        "howmany": 4,
+        "score": 4
+    },
+    {"category": "数学","title": "二次関数","evaluation": "ニガテ","date": "2020/11/9","howmany": 0,"score": 2.0
+    },
+    {"category": "理科","title": "地震","evaluation": "普通","date": "2020/4/3","howmany": 2,"score": 3.5
+    },   
+    {"category": "英語","title": "HOGE","evaluation": "普通","date": "2020/6/4","howmany": 2,"score": 3.1
+    }
+    
+]
