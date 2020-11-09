@@ -12,7 +12,7 @@
       <div><input type="text" v-model="exercize.category" autofocus>
       </div>
     
-        <button @click="doSend; closeModal('category');openModal('title')">送信</button>
+        <button @click="closeModal('category');openModal('title')">送信</button>
     
     </MyModal>
 
@@ -22,7 +22,7 @@
       <p>問題名を入力してください</p>
       <div><input type="text" v-model="exercize.title" autofocus>
       </div>
-        <v-btn @click="doSend;closeModal('title');openModal('evaluation')">送信</v-btn>
+        <v-btn @click="closeModal('title');openModal('evaluation')">送信</v-btn>
       
     </MyModal>
 
@@ -205,13 +205,13 @@ export default {
       this.index=number
       this.openModal('table')
     },
-
+    //点数はイメージです
     fillData() {
       this.datacollection = {
         labels: ["A", "B", "C", "D"],
         datasets: [
           {
-            label:"問題",
+            label:"スコア",
             data: this.score
           }
         ]
